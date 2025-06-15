@@ -1,1 +1,33 @@
+<!DOCTYPE html><html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>SureBet Radar</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<h1>SureBet Radar <small id="status">— loading…</small></h1>
 
+<label>運動
+  <select id="sport">
+    <option value="basketball_nba">NBA</option>
+    <option value="baseball_mlb">MLB</option>
+    <option value="lol_lol">LoL</option>
+    <option value="cs2_csgo">CS2</option>
+    <option value="valorant_valorant">VALORANT</option>
+  </select>
+</label>
+本金 <input id="bankroll" type="number" value="5000" style="width:80px"> 元
+<button id="refresh">立即刷新</button>
+
+<table id="table">
+  <thead>
+    <tr>
+      <th>比賽</th><th>莊家 A</th><th>莊家 B</th><th>x 值</th><th>下注建議</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<p><a href="odds.html">➜ 手動試算器</a></p>
+<script src="js/main.js"></script>
+</body></html>
