@@ -1,1 +1,4 @@
-
+body{background:#0f172a;color:#e2e8f0;font-family:Segoe UI;padding:20px}
+table{width:100%;border-collapse:collapse;margin-top:10px}
+th,td{border:1px solid #334155;padding:6px;text-align:center}
+input,select,button{margin:4px}
