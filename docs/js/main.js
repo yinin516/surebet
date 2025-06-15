@@ -1,4 +1,4 @@
-const api = 'https://surebet-api.<你的子域>.workers.dev';  // ← 換成 Worker URL
+const api = 'https://6443c78e-surebet-api.yuy20966.workers.dev/';  // ← 換成 Worker URL
 
 async function getOdds(){
   const [sp,lg] = sport.value.split('_');
