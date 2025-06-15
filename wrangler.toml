@@ -1,1 +1,6 @@
+name = "surebet-api"
+main = "worker/index.js"
+compatibility_date = "2025-06-15"
 
+[vars]
+ODDS_API = "dummy"     # 之後用 wrangler secret 覆蓋
