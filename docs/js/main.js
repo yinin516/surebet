@@ -1,8 +1,8 @@
 const api = 'https://6443c78e-surebet-api.yuy20966.workers.dev/';  // ← 換成 Worker URL
 
 async function getOdds(){
-  const [sp,lg] = sport.value.split('_');
-  const res = await fetch(`${api}/odds?sport=${sp}&league=${lg}`);
+const [sp, lg] = sport.value.split('_');
+const res = await fetch(`${api}/odds?sport=${sp}&league=${lg}`);
   return res.json();
 }
 function arb(r1,r2){
